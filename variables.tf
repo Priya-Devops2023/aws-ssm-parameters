@@ -10,7 +10,7 @@ variable "parameters" {
   }
 }
 
-## NOte: In organization we dont keep passwords in Git repo at any cost, Here in Lab, Just for learnability purpose we are declaring them here and hardcoding in git repos.
+## Note: In organization we dont keep passwords in Git repo at any cost, Here in Lab, Just for learnability purpose we are declaring them here and hardcoding in git repos.
 variable "secrets" {
   default = {
     "dev.expense.rds.password" = "ExpenseApp123"
