@@ -13,3 +13,4 @@ resource "aws_ssm_parameter" "secrets" {
   value    = each.value
   key_id   = var.key_id
 }
+#
